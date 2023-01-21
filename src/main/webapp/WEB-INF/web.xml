@@ -51,4 +51,16 @@
     <url-pattern>/userLogin</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <description></description>
+    <display-name>Singup</display-name>
+    <servlet-name>Singup</servlet-name>
+    <servlet-class>com.servlet.user.Singup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Singup</servlet-name>
+    <url-pattern>/singup</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
